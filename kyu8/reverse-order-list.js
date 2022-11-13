@@ -10,3 +10,9 @@ function reverseList(arr) {
     console.log(reversed)
 }
 reverseList([1,2,3,4,5])
+
+// Second Attempt:
+function reverseList(arr){
+    console.log(arr.reverse());
+}
+reverseList([1,2,3,4,5])
