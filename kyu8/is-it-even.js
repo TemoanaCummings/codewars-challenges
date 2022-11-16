@@ -14,3 +14,5 @@ function testEven(n) {
     }
 }
 testEven(1)
+
+testEven = n%2 === 0 ? 'true' : 'fasle';
