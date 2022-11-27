@@ -21,3 +21,15 @@ function animal(obj){
     dog.legs = 4;
     return `This dog's name is ${dog.name} and has ${dog.legs} legs.`;
 }  
+
+function testing(n){
+    var test = {}
+    test.one = 'test';
+    test.two = '2'
+    console.log(`${test.one} and ${test.two}`)
+}
+testing();
+
+function get(n){
+    
+}
