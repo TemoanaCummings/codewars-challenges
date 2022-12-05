@@ -13,6 +13,6 @@
 
 // New Solution:
 function evenOrOdd(n){
-  number % 2 === 0 ? "Even" : "Odd";
+  return n % 2 === 0 ? "Even" : "Odd";
 }
 evenOrOdd(1)
