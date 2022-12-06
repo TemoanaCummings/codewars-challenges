@@ -21,7 +21,7 @@ function equal1(){
       b = v1;   
   return a + b;
 }
-console.log(equal1)
+console.log(equal1);
 
 //Please refer to the example above to complete the following functions
 function equal2(){
@@ -29,14 +29,14 @@ function equal2(){
       b = v2; //set number value to b
   return a - b;
 }
-console.log(equal2)
+console.log(equal2);
 
 function equal3(){
   let a = v1, //set number value to a
       b = v5; //set number value to b
   return a * b;
 }
-console.log(equal3)
+console.log(equal3);
 
 function equal4(){
   let a = v4, //set number value to a
@@ -44,3 +44,10 @@ function equal4(){
   return a / b;
 }
 console.log(equal4)
+
+function equal5(){
+  let a = v2, //set number value to a
+      b = v4; //set number value to b
+  return a % b;
+}
+console.log(equal5);
