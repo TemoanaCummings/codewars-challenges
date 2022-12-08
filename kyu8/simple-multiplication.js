@@ -11,3 +11,6 @@ function simpleMultiplication(number) {
 }
 simpleMultiplication(1)
 
+function simpleMultiplication(n){
+    return n % 2 === 0 ? console.log(n * 8) : console.log(n * 9);
+}
