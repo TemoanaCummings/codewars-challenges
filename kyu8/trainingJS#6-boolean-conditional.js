@@ -26,3 +26,8 @@ function trueOrFalse(val){
         return 'true'
     }
 }
+
+// Terniary version:
+function trueOrFalse(val){
+    return val == false?false:true;
+}
