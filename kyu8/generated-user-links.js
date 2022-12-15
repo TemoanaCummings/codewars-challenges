@@ -10,5 +10,5 @@ function generateLink(user) {
     let encoded = encodeURIComponent(user);
     return `http://www.codewars.com/users/${encoded}`;
 }
-generateLink('matt c')
+generateLink()
   
