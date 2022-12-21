@@ -11,3 +11,6 @@
 function numberToString(num){
     return num.toString();
 }
+
+// Better Solution:
+const numberToString = num => num.toString();

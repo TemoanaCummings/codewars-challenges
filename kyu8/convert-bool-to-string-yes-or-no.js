@@ -1,17 +1,19 @@
 // Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
 // My Solution;
-function boolToWord( bool ){
+function boolToWord(bool){
     if(bool === true){
-        console.log("Yes")
+        return "Yes";
     }
     else{
-        console.log("No")
+        return "No";
     }
 }
-boolToWord(true)
 
-// Best Solution:
-function boolToWord( bool ){
+// Better Solution:
+function boolToWord(bool){
     return bool ? 'Yes':'No';
 }
+
+// Best Solution:
+const boolToWord = (bool) => bool ? 'Yes':'No';

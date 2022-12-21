@@ -28,3 +28,6 @@ checkForFactor(1,2)
 function checkForFactor(base, factor){
     return (base % factor === 0 ? true : false); 
 }
+
+// Arrow Function:
+const checkForFactor = (base,factor) => base % factor === 0 ? true : false;

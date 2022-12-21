@@ -5,8 +5,10 @@
 // Return true if the array contains the value, false if not.
 
 // My Solution:
-function check(a, x) {
+function check(a, x){
     // your code here
     return a.includes(x)?true:false;
-  }
-  check([1,2,3,4,5],1);
+}
+check([1,2,3,4,5],1);
+
+const check = (a,x) => a.includes(x) ? true : false;
