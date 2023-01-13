@@ -2,5 +2,15 @@
 
 // My Solution:
 function fakeBin(x){
-
+    let output = ''
+    for (let i = 0; i < x.length; i++) {
+        if(Number(x[i]) >= 5){
+            output += 1;
+        }
+        else{
+            output += 0;
+        }
+    }
+    console.log(output);
 }
+fakeBin("5");
