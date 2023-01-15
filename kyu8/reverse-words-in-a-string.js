@@ -7,5 +7,5 @@
 
 // My Solution:
 function reverse(string){
-    //your code here
-  }
+    return string.split(/\b/).reverse().join('');
+}
