@@ -13,6 +13,10 @@ class Guesser {
     }
     
     guess(n) {
-      return false;
+        {
+            if (this.lives <= 0) throw "Error";
+            if (this.number !== n) this.lives--;
+            return this.number === n;
+          }
     }
 }
