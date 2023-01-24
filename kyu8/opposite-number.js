@@ -8,4 +8,10 @@
 // My Solution:
 function opposite(number) {
     //your code here
+    if(number >= 0){
+        return Number("-" + number);
+    }
+    else if(number <  0){
+        return Math.abs(number);
+    }
 }
