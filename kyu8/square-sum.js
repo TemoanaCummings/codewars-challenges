@@ -3,5 +3,11 @@
 
 // My Solution:
 function squareSum(numbers){
-
+    let square = 0;
+    for (let i = 0; i < numbers.length; i++)
+    {
+        square += (numbers[i] * numbers[i]);    
+    }
+    return square;
 }
+squareSum([2,2]);
