@@ -6,5 +6,7 @@
 
 // My Solution:
 function maps(x){
-
+    let doubled = x.map(i => i * 2);
+    return doubled;
 }
+map([1,1,1,1]);
