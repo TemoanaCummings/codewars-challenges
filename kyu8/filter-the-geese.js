@@ -14,6 +14,12 @@
 //My Solution:
 function gooseFilter (birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-    
     // return an array containing all of the strings in the input array except those that match strings in geese
+    var newArray = [];
+    for (var i =0;i<birds.length;i++) {
+    if (!geese.includes(birds[i])) {
+        newArray.push(birds[i]);
+        }
+    }
+    return newArray;
 };
