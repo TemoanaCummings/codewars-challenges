@@ -2,5 +2,5 @@
 
 // My Solution:
 function removeExclamationMarks(s) {
-    return '';
+    return s.replace(/!/gi, '');
 }
