@@ -34,4 +34,7 @@
 // Your recovered toString() methods should only return the stringified version of the input - it should NOT alter the original value. Test cases have been created to confirm this.
 
 // My Solution:
-
+Number.prototype.toString = function() {return "" + this;}
+Array.prototype.toString = function() {return "[" + this.join(",") + "]";}
+Boolean.prototype.toString = function() {return "" + this;}
+Object.prototype.toString = function() {return "" + this;}
