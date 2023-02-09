@@ -24,4 +24,11 @@
 // My Solution:
 function apparently(string) {
     // your code
+    let newWords = {
+        and:"and apparently",
+        but:"but apparently"
+    };
+    string = string.replace(/\b(?:and|but)\b/gi, matched => newWords[matched]);
+    console.log(string); 
 }
+apparently("It was great and I've never been on live television before but sometimes I don't watch this.")
