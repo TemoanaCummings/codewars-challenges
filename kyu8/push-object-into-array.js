@@ -2,4 +2,4 @@
 
 // My Solution:
 items = []
-items.pusha: "b", c: "d"
+items.push({a: "b", c: "d"}) 
