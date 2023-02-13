@@ -28,4 +28,10 @@
 // My Solution:
 function maxProduct(numbers, size){
     //your code here
+    numbers = numbers.sort((a,b)=> b - a)
+    let result = 1
+    for(let i = 0; i < size; i++) {
+      result *= numbers[i]
+    }
+    return result
 }
