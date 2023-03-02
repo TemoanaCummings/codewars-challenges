@@ -36,12 +36,16 @@
 // The input strings are separated by , instead of \n. The output strings should be separated by \r instead of \n. See "Sample Tests".
 
 // My Solution:
-function vertMirror(strng) {
-    // Your code
+function vertMirror(str) {
+    return str.split('\n')
+      .map(line => line.split('').reverse().join(''))
+      .join('\n')
 }
-function horMirror(strng) {
-    // Your code
+function horMirror(str) {
+    return str.split('\n')
+      .reverse()
+      .join('\n')
 }
 function oper(fct, s) {
-    // Your code
+    return fct(s)
 }
