@@ -7,4 +7,7 @@
 // My Solution:
 var flatten = function (array){
     // TODO: Program me
+    return array.reduce(function(a,z) {
+        return a.concat(z);
+      }, []);
   }
