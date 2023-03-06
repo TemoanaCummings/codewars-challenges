@@ -12,4 +12,17 @@
 // My Solution:
 function multImplication(arr) {
     // your code
+    var len = arr.length;
+  if (len === 0) return null;
+  
+  var i;
+  var answer = true;
+  for (i = 0; i < len; i++) {
+    if (answer && arr[i] === false) {
+      answer = false;
+    } else {
+      answer = true;
+    }
+  }
+  return answer;
   }
