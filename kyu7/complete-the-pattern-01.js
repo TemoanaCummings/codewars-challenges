@@ -42,4 +42,4 @@ function pattern(n){
     res.push(Array(i + 1).join(i));
   }
   return res.join('\n');
-}
+   }
