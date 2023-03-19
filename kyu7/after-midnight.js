@@ -12,7 +12,11 @@
 // dayAndTime(-349000) should return 'Tuesday 15:20'
 
 // My Solution:
-function dayAndTime(n) {
-    //enter your code here
-    return
+const dayAndTime = minutes => {
+    var date = new Date(0, 0, 0),
+      daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    date.setTime(date.getTime() + minutes * 60 * 1000);
+    return `${daysOfWeek[date.getDay()]} ${formatNumber(date.getHours())}:${formatNumber(date.getMinutes())}`;
 }
+
+const formatNumber = number => (number < 10 ? "0" : "") + number;
